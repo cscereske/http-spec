@@ -1,0 +1,10 @@
+dist: trusty
+language: go
+go:
+  - 1.9.2
+services:
+  - docker
+script:
+  - ./validate
+notifications:
+  email: false
